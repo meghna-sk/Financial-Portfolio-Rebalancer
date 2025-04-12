@@ -24,12 +24,12 @@ This project implements an AI assistant using LangChain that analyzes and sugges
 
 1. Clone the Repository
 
-git clone https://github.com/meghna-sk/Financial-Portfolio-Rebalancer
+git clone https://github.com/meghna-sk/Financial-Portfolio-Rebalancer <br/>
 cd Financial-Portfolio-Rebalancer
 
 2. Create and Activate a Virtual Environment
 
-python -m venv venv
+python -m venv venv <br/>
 On Windows: venv\Scripts\activate
 
 3. Install Dependencies
@@ -40,7 +40,7 @@ pip install -r requirements.txt
 
 In the root directory, create a `.env` file and add the following:
 
-ANTHROPIC_API_KEY=your_claude_api_key_here
+ANTHROPIC_API_KEY=your_claude_api_key_here <br/>
 GROQ_API_KEY=your_groq_api_key_here
 
 ## Running the Project
