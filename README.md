@@ -20,31 +20,17 @@ This project implements an AI assistant using LangChain that analyzes and sugges
 - Groq LLaMA3 (8B and 70B models)
 - Pandas, Requests, Dotenv
 
-## Project Structure
-
-├── main.py                    # Entry point for agent execution and testing
-├── agents/
-│   └── llm_selector.py        # Multi-LLM selection and configuration
-├── tools/
-│   ├── stock_price.py         # Stock price lookup tool
-│   ├── rebalance.py           # Portfolio rebalancing logic
-│   └── trend_analysis.py      # Market trend analysis
-├── utils/
-│   └── logger.py              # Tracks tool usage for evaluation
-├── .env                       # (Not included) Stores your API keys
-└── requirements.txt           # Python package dependencies
-
-Setup Instructions
+## Setup Instructions
 
 1. Clone the Repository
 
-git clone https://github.com/your-username/portfolio-rebalancer-ai.git
-cd portfolio-rebalancer-ai
+git clone https://github.com/meghna-sk/Financial-Portfolio-Rebalancer
+cd Financial-Portfolio-Rebalancer
 
 2. Create and Activate a Virtual Environment
 
 python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
+On Windows: venv\Scripts\activate
 
 3. Install Dependencies
 
